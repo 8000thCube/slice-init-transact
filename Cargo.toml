@@ -1,0 +1,15 @@
+[package]
+authors = ["Aili Nierengarten <aili.nierengarten@gmail.com>"]
+description = "Mostly safe interface to initialize values in collections of MaybeUninit in a transactional style"
+documentation = "https://docs.rs/slice-init-transact"
+edition = "2024"
+license = "MIT"
+name = "slice-init-transact"
+version = "0.1.0"
+repository = "https://github.com/8000thCube/slice-init-transact"
+
+[profile.test]
+opt-level = 3
+
+[dependencies]
+type-equalities = "0.3.1"
